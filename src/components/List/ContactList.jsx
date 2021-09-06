@@ -11,7 +11,6 @@ const ContactList = ({ contacts, onDeleteContacts }) => (
         <Button onClick={() => onDeleteContacts(id)}>Delete</Button>
       </Item>
     ))}
-    ;
   </List>
 );
 

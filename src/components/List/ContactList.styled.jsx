@@ -5,21 +5,24 @@ export const Button = styled.button`
   width: 30%;
   border-width: 0;
   line-height: 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: green;
 `;
 
 export const List = styled.ul`
-  list-style: none;
-  max-width: 400px;
   padding: 40px 50px;
   margin: 50px auto 0;
+  list-style: none;
+  max-width: 400px;
 `;
 
 export const Name = styled.p`
   display: block;
   padding: 0 15px;
-  font-family: 'Roboto', sans-serif;
   color: black;
-  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 `;
 
 export const Item = styled.li`
