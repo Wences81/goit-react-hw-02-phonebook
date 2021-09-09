@@ -63,7 +63,7 @@ export class App extends Component {
         <Filter value={this.state.filter} onChange={this.changeFilter} />
         <ContactList
           contacts={this.getFilteredContacts()}
-          onDeleteContacts={this.deleteContacts}
+          onDeleteContacts={this.deleteContact}
         />
       </div>
     );
